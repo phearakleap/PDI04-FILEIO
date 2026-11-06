@@ -12,7 +12,7 @@ public class Lab03 {
         try{
 
             FileWriter fw = new FileWriter("Ex3StudentData.csv");
-            fw.write("Name, ID, Gender\n");
+            fw.write("Name,ID,Gender\n");
 
             for(int i = 0; i <= 2; i++){
                 
@@ -25,7 +25,7 @@ public class Lab03 {
                 stuGender = sc.nextLine();
                 System.out.println("\n============================================================\n");
                 
-                fw.append(stuName + ", " + stuID + ", " + stuGender + "\n");        
+                fw.append(stuName + "," + stuID + "," + stuGender + "\n");        
                 
             }
 
