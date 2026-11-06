@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Lab04 {
     public static void main(String[] args){
         List<List<String>> listOfStudents = new ArrayList<>();
-        String entry, name, ID, gender, startOfFile = "Name,ID,Gender";
+        String entry, startOfFile = "Name,ID,Gender";
 
         try(BufferedReader br = new BufferedReader(new FileReader("Ex3StudentData.csv"))){
 
