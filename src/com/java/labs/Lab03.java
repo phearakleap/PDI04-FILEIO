@@ -1,35 +1,8 @@
 package com.java.labs;
 
 import java.util.Scanner;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-
-// class Student{
-//     private String stuName;
-//     private String stuID;
-//     private String stuGender;
-
-//     public void setName(String name){
-//         stuName = name;
-//     }
-//     public void setID(String ID){
-//         stuID = ID;
-//     }
-//     public void setGender(String gender){
-//         stuGender = gender;
-//     }
-
-//     public String getName(){
-//         return stuName;
-//     }
-//     public String getID(){
-//         return stuID;
-//     }
-//     public String getGender(){
-//         return stuGender;
-//     }
-// }
 
 public class Lab03 {
     public static void main(String[] args){
