@@ -1,4 +1,7 @@
 .vscode/
+*.class
 bin/
 lib/
-*.csv
+Ex3*.csv
+Luck*.csv
+file*.csv
